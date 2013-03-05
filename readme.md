@@ -18,7 +18,7 @@ Returns the most recent tweet for a given user. If the given number is one, use 
 	/latest?name=[username]
 
 Try it out:
-[http://cosmocatalano.com/lab/twitter-scrape/user?name=@cosmocatalano&6](http://cosmocatalano.com/lab/twitter-scrape/user?name=@cosmocatalano&6)
+[http://cosmocatalano.com/lab/twitter-scrape/latest?name=@cosmocatalano](http://cosmocatalano.com/lab/twitter-scrape/latest?name=@cosmocatalano)
 
 
 
