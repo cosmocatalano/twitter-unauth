@@ -23,7 +23,7 @@ Try it out:
 
 
 #The User Method
-Returns a certain number of tweets from a given user. If that certain number is one, use the **Latest** method; it's much faster.
+Returns a certain number of tweets from a given user. If that certain number is one, use the **Latest** method; it's much faster. If that number is NULL, you'll get about 20 items and it will take forever.
 
 	/user?name=[username](&[integer])
 
@@ -31,7 +31,7 @@ Try it out:
 [http://cosmocatalano.com/lab/twitter-scrape/user?name=@cosmocatalano&6](http://cosmocatalano.com/lab/twitter-scrape/user?name=@cosmocatalano&6)
 
 #The Search Method
-Returns a certain number of tweets containing a string. May be real time or not, though I'm not especially clear on the distinction.
+Returns a certain number of tweets containing a string. May be real time or not, though I'm not especially clear on the distinction. Again, returns about 20 items if no integer is used.
 
 	/search?query=[string](&[integer], defaults to all)(&['realtime'], default not realtime)
 
