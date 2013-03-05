@@ -1,5 +1,7 @@
 #Twitter unAuth
 
+![unauth logo by me. hope it becomes a thing](https://raw.github.com/cosmocatalano/twitter-unauth/master/unauth_logo.png)
+
 These Python scripts return wads of JSON from twitter.com based on usernames and strings. Those JSON objects can be programmatically processed in applications more or less in the same way as an API return.
 
 They should also return errors as valid JSON objects. I make no guarantees on this.
@@ -21,7 +23,7 @@ Try it out:
 
 
 #The User Method
-Returns a certain number of tweets from a given user.
+Returns a certain number of tweets from a given user. If that certain number is one, use the **Latest** method; it's much faster.
 
 	/user?name=[username](&[integer])
 
