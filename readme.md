@@ -8,7 +8,7 @@ They should also return errors as valid JSON objects. I make no guarantees on th
 
 This requires [Beautiful Soup 4](http://www.crummy.com/software/BeautifulSoup/) and a bunch of other things that probably came with your installation of Python.
 
-There are basically three methods:
+There are three methods:
 
 
 #The Latest Method
@@ -37,3 +37,7 @@ Returns a certain number of tweets containing a string. May be real time or not,
 
 Try it out:
 [http://cosmocatalano.com/lab/twitter-scrape/user?name=@cosmocatalano&6](http://cosmocatalano.com/lab/twitter-scrape/user?name=@cosmocatalano&6)
+
+#Known Issues
+Cache buster is ineffective. 
+
