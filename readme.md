@@ -36,7 +36,7 @@ Returns a certain number of tweets containing a string. May be real time or not,
 	/search?query=[string](&[integer], defaults to all)(&['realtime'], default not realtime)
 
 Try it out:
-[http://cosmocatalano.com/lab/twitter-scrape/user?name=@cosmocatalano&6](http://cosmocatalano.com/lab/twitter-scrape/user?name=@cosmocatalano&6)
+[http://cosmocatalano.com/lab/twitter-scrape/search?query=obama](http://cosmocatalano.com/lab/twitter-scrape/search?query=obama)
 
 #Known Issues
 Cache buster is ineffective. 
