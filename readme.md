@@ -15,7 +15,7 @@ There are three methods:
 
 Returns the most recent tweet for a given user. If the given number is one, use the latest method instead
 
-	/latest?name=[username]
+	twitter-scrape/latest?name=[username]
 
 Try it out:
 [http://cosmocatalano.com/lab/twitter-scrape/latest?name=@cosmocatalano](http://cosmocatalano.com/lab/twitter-scrape/latest?name=@cosmocatalano)
@@ -25,7 +25,7 @@ Try it out:
 #The User Method
 Returns a certain number of tweets from a given user. If that certain number is one, use the **Latest** method; it's much faster. If that number is NULL, you'll get about 20 items and it will take forever.
 
-	/user?name=[username](&[integer])
+	twitter-scrape/user?name=[username](&[integer])
 
 Try it out:
 [http://cosmocatalano.com/lab/twitter-scrape/user?name=@cosmocatalano&6](http://cosmocatalano.com/lab/twitter-scrape/user?name=@cosmocatalano&6)
@@ -33,7 +33,7 @@ Try it out:
 #The Search Method
 Returns a certain number of tweets containing a string. May be real time or not, though I'm not especially clear on the distinction. Again, returns about 20 items if no integer is used.
 
-	/search?query=[string](&[integer], defaults to all)(&['realtime'], default not realtime)
+	twitter-scrape/search?query=[string](&[integer], defaults to all)(&['realtime'], default not realtime)
 
 Try it out:
 [http://cosmocatalano.com/lab/twitter-scrape/search?query=obama&2&realtime](http://cosmocatalano.com/lab/twitter-scrape/search?query=obama&2&realtime)
