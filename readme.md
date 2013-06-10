@@ -1,5 +1,5 @@
 #Twitter unAuth
-
+###So, Twitter changed they way they deliver page content, making this kind of worthless. But I have adapted: https://github.com/cosmocatalano/tweet-2-json
 ![unauth logo by me. hope it becomes a thing](https://raw.github.com/cosmocatalano/twitter-unauth/master/unauth_logo.png)
 
 These Python scripts return wads of JSON from twitter.com based on usernames and strings. Those JSON objects can be programmatically processed in applications more or less in the same way as an API return.
